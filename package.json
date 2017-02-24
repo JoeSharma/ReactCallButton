@@ -1,0 +1,34 @@
+{
+  "name": "reactcallbutton",
+  "version": "0.0.1",
+  "description": "A react component to floating call button on mobile websites. (Button is displayed on only mobile devices as call facility is available )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base src --inline --hot",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeSharma/ReactCallButton.git"
+  },
+  "author": "JoeSharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeSharma/ReactCallButton/issues"
+  },
+  "homepage": "https://github.com/JoeSharma/ReactCallButton#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "webpack": "^2.2.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0"
+  }
+}
